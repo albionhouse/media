@@ -216,7 +216,7 @@ body {
   background-color: #ffe161 !important;
 }
 .bg-danger {
-  background-color: #ff9966 !important;
+  background-color: #333333 !important;
 }
 .btn-primary,
 .btn-primary:active {
@@ -330,8 +330,8 @@ body {
 }
 .btn-danger,
 .btn-danger:active {
-  background-color: #ff9966 !important;
-  border-color: #ff9966 !important;
+  background-color: #333333 !important;
+  border-color: #333333 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -340,15 +340,15 @@ body {
 .btn-danger.focus,
 .btn-danger.active {
   color: #ffffff !important;
-  background-color: #ff5f0f !important;
-  border-color: #ff5f0f !important;
+  background-color: #080808 !important;
+  border-color: #080808 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-danger.disabled,
 .btn-danger:disabled {
   color: #ffffff !important;
-  background-color: #ff5f0f !important;
-  border-color: #ff5f0f !important;
+  background-color: #080808 !important;
+  border-color: #080808 !important;
 }
 .btn-white,
 .btn-white:active {
@@ -503,13 +503,13 @@ body {
 .btn-danger-outline:active {
   background-color: transparent !important;
   border-color: transparent;
-  color: #ff9966;
+  color: #333333;
 }
 .btn-danger-outline:hover,
 .btn-danger-outline:focus,
 .btn-danger-outline.focus,
 .btn-danger-outline.active {
-  color: #ff5f0f !important;
+  color: #080808 !important;
   background-color: transparent!important;
   border-color: transparent!important;
   box-shadow: none!important;
@@ -517,8 +517,8 @@ body {
 .btn-danger-outline.disabled,
 .btn-danger-outline:disabled {
   color: #ffffff !important;
-  background-color: #ff9966 !important;
-  border-color: #ff9966 !important;
+  background-color: #333333 !important;
+  border-color: #333333 !important;
 }
 .btn-black-outline,
 .btn-black-outline:active {
@@ -578,7 +578,7 @@ body {
   color: #ffe161 !important;
 }
 .text-danger {
-  color: #ff9966 !important;
+  color: #333333 !important;
 }
 .text-white {
   color: #fafafa !important;
@@ -614,7 +614,7 @@ a.text-warning.active {
 a.text-danger:hover,
 a.text-danger:focus,
 a.text-danger.active {
-  color: #ff5500 !important;
+  color: #000000 !important;
 }
 a.text-white:hover,
 a.text-white:focus,
@@ -655,7 +655,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
   background-color: #ffe161;
 }
 .alert-danger {
-  background-color: #ff9966;
+  background-color: #333333;
 }
 .mbr-gallery-filter li.active .btn {
   background-color: #6592e6;
@@ -687,7 +687,7 @@ a:hover {
 }
 .mbr-plan-header.bg-danger .mbr-plan-subtitle,
 .mbr-plan-header.bg-danger .mbr-plan-price-desc {
-  color: #ffffff;
+  color: #a6a6a6;
 }
 /* Scroll to top button*/
 .scrollToTop_wraper {
@@ -1143,7 +1143,7 @@ a {
   }
 }
 .cid-ssEWiewYCA {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 1rem;
   background-color: #ffffff;
 }
@@ -1177,8 +1177,8 @@ a {
 }
 .cid-ssFq5bfAEm {
   padding-top: 2rem;
-  padding-bottom: 1rem;
-  background-color: #52b54b;
+  padding-bottom: 0rem;
+  background-image: url("../../../assets/images/01-emby-iptv-plugin-sample-1-600x337.jpeg");
 }
 .cid-ssFq5bfAEm .item {
   padding-bottom: 2rem;
@@ -1427,10 +1427,16 @@ a {
   text-align: center;
   color: #ffffff;
 }
+.cid-ssFq5bfAEm H3 {
+  color: #ffffff;
+}
+.cid-ssFq5bfAEm H4 {
+  color: #ffffff;
+}
 .cid-ssEU2PfBUm {
   padding-top: 2rem;
-  padding-bottom: 1rem;
-  background-color: #333333;
+  padding-bottom: 2rem;
+  background-color: #52b54b;
 }
 .cid-ssEU2PfBUm .card {
   border-radius: 0;
@@ -1457,39 +1463,6 @@ a {
   color: #ffffff;
 }
 .cid-ssEU2PfBUm H3 {
-  color: #000000;
-}
-.cid-ssFrEkm4ZK {
-  padding-top: 1rem;
-  padding-bottom: 0rem;
-  background-color: #52b54b;
-}
-.cid-ssFrEkm4ZK .image-wrapper {
-  display: flex;
-  align-items: center;
-}
-.cid-ssFrEkm4ZK .card-wrapper {
-  margin-bottom: 2rem;
-  display: flex;
-  border-radius: 4px;
-  background: #fafafa;
-}
-@media (max-width: 991px) {
-  .cid-ssFrEkm4ZK .card-wrapper {
-    padding: 1rem 2rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-ssFrEkm4ZK .card-wrapper {
-    padding: 2rem 4rem;
-  }
-}
-.cid-ssFrEkm4ZK .mbr-iconfont {
-  font-size: 4rem;
-  padding-right: 1.5rem;
-  color: #6592e6;
-}
-.cid-ssFrEkm4ZK P {
   color: #000000;
 }
 .cid-ssETATGZxd {
