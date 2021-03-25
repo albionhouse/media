@@ -1075,11 +1075,16 @@ a {
 }
 .cid-ssFq5bfAEm {
   padding-top: 2rem;
-  padding-bottom: 0rem;
+  padding-bottom: 1rem;
   background-image: url("../../../assets/images/01-emby-iptv-plugin-sample-1-600x337.jpeg");
 }
+.cid-ssFq5bfAEm .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 .cid-ssFq5bfAEm .item {
-  padding-bottom: 2rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 .cid-ssFq5bfAEm .item-wrapper {
   position: relative;
